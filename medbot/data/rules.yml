@@ -1,0 +1,22 @@
+version: "3.1"
+
+rules:
+
+- rule: List the medication anytime user asks for them
+  steps:
+  - intent: ask_medication_names
+  - action: action_provide_medication_names
+
+- rule: List side effects of medication anytime user asks
+  steps:
+  - intent: ask_side_effects
+  - action: action_provide_side_effects
+
+
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+

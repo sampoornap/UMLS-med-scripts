@@ -1,0 +1,47 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: ask_medication_names
+  examples: |
+    - What are the medicines for [eczema](medical_condition)?
+    - Can you suggest some drugs for [Hayfever](medical_condition)?
+    - Name a few medications for [hypertension](medical_condition).
+    - [Cholestrol](medical_condition) medicine?
+
+- intent: ask_side_effects
+  examples: |
+    - What are the side effects of [doxycycline](medicine_name)?
+    - Can you tell me the side effects of this medicine?
+    - What adverse effects does [ecpirin](medicine_name) have?
+    - [Zetia](medicine_name) side effects?
+
+

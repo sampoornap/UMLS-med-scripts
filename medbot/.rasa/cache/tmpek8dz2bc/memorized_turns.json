@@ -1,0 +1,13 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVicXZ8bmpKZnJiXA9xbW1sQB1FFSC": "action_provide_medication_names",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVicXZ8bmpKZnJiXA9xUQaWVCUX5aZkoqpnUhLYgGHXHvG": "action_listen",
+    "eJydjlEKgCAQBa/iATqBV4lYxJ4h1Rbu2o949wT7F/p7A8Pw5lInU+6Eh5zXeLE1pQ9id8KaD44oCm5uFqTmRG6o1mwJ0DpoZFUk6uq/wuCFk50kriCEAK9S6/ICJbRS1g==": "action_provide_side_effects",
+    "eJydjsEJgDAQBFtJAVaQVkSOEDcS1Ch3Fz/B3o3ox5fibxdmh23L3piyMjZyXuOSrClXoORmWHOXKYoiVTYLuDIx1arWDAzo/uLIqmC60H+GlxdORpLYgxACvMpH3crLdq4e0w/y7gDEd3bC": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen"
+  }
+}

@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_medication_names
+  - ask_side_effects
+
+
+entities:
+  - medical_condition
+  - medicine_name
+
+slots:
+  medical_condition:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: medical_condition
+    influence_conversation: true
+
+  medicine_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: medicine_name
+    influence_conversation: true
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a nice day!"
+
+
+
+  
+
+actions:
+  - action_provide_medication_names
+  - action_provide_side_effects
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

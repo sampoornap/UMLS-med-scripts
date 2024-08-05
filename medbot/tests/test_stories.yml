@@ -1,0 +1,47 @@
+version: "3.1"
+
+test_stories:
+- story: greet and ask medication names
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_medication_names
+    entities:
+    - medical_condition: "acne"
+  - slot_was_set:
+    - medical_condition: "acne"
+  - action: action_provide_medication_names
+
+- story: greet and ask side effects
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_side_effects
+    entities:
+    - medicine_name: "doxycycline"
+  - slot_was_set:
+    - medicine_name: "doxycycline"
+  - action: action_provide_side_effects
+
+- story: greet and ask medication names as well as side effects
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_medication_names
+    entities:
+    - medical_condition: "acne"
+  - slot_was_set:
+    - medical_condition: "acne"
+  - action: action_provide_medication_names
+  - intent: ask_side_effects
+    entities:
+    - medicine_name: "doxycycline"
+  - slot_was_set:
+    - medicine_name: "doxycycline"
+  - action: action_provide_side_effects
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
