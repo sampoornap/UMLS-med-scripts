@@ -1,0 +1,8 @@
+.env
+extras
+__pycache__
+.rasa
+results
+venv
+.DS_Store
+
